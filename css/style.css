@@ -92,9 +92,47 @@ li{
 	background: white;
 	border-radius: 10px;
 	margin-bottom: 15px;
-	height: 30px;
+	height: auto;
+
 
 }
+
+.follow-box {
+	background: white;
+	border-radius: 5px;
+	height: auto;
+	padding: 5px;
+}
+
+#to-follow h3 {
+	font-size: 12px;
+	font-weight: 200px;
+	line-height: 20px;
+
+}
+#to-follow a {
+	color: #186FA9;
+	text-decoration: none;
+}
+
+#to-follow a:hover{ 
+	color: #186FA9;
+	text-decoration: underline;
+}
+.follow-box button{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.follow-box img{
+	float: left;
+}
+.follow-box h3{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
 
 /* ------------- */
 /* right-side: 	 */
@@ -144,7 +182,7 @@ img {
 .text{
 	font-size: 14px;
 	float: 80%;
-	line-height: 20px;
+	line-height: 18px;
 
 }
 
