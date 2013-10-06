@@ -45,6 +45,11 @@ li{
 	color: white;
 }
 
+.topbar {
+
+}
+
+
 #bird{
 	float: right;
 	margin: 10px;
@@ -91,19 +96,17 @@ li{
 .box{
 	background: white;
 	border-radius: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	height: auto;
+	padding:5px;
 
 
 }
 
-.follow-box {
-	background: white;
-	border-radius: 5px;
-	height: auto;
-	padding: 5px;
-}
 
+#my-profile h2 a:hover{
+	color: #186FA9;
+}
 #to-follow h3 {
 	font-size: 12px;
 	font-weight: 200px;
@@ -119,15 +122,15 @@ li{
 	color: #186FA9;
 	text-decoration: underline;
 }
-.follow-box button{
+.box button{
 	font-size: 10px;
 	font-weight: bold;
 }
 
-.follow-box img{
+.box img{
 	float: left;
 }
-.follow-box h3{
+.box h3{
 	font-size: 12px;
 	line-height: 18px;
 }
