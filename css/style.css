@@ -72,7 +72,7 @@ li{
 	margin-left: auto ;
 	margin-right: auto ;
 	width: 860px;
-	height: 1500px;
+	height: 2000px;
 	font-family: "Helvetica Neue",Arial,sans-serif;
 	background-color: #d6e9f4;	
   	border:1px;
@@ -80,9 +80,9 @@ li{
 
 }
 
-/* ------------------------ */
-/* left side bars specific  */
-/* ------------------------ */
+/* ------------------------  */
+/* left-side: bars specific  */
+/* ------------------------  */
 .sidebar {
 	border-radius: 10px;
 	/*margin-bottom: 10px;*/
@@ -95,30 +95,54 @@ li{
 
 .box{
 	background: white;
-	border-radius: 10px;
 	margin-bottom: 10px;
 	height: auto;
 	padding:5px;
-
-
 }
 
 
 #my-profile h2 a:hover{
 	color: #186FA9;
 }
-#to-follow h3 {
+
+.box li {
+	font-weight: bold;
+	float: left;
+	border: 1px solid #C0C0C0;
+	line-height: 18px;
+}
+
+.box li h3 {
+	color: black;
+	font-weight: bold;
+}
+.box li h4{
 	font-size: 12px;
+	color: grey;
+	font-weight: normal;
+}
+
+#compose{
+	margin-top: -10px;
+	float: left;
+	border:1px solid #C0C0C0;
+	width: 235px;
+	height: 40px;
+	font-size:12px;
+	color: grey;
+}
+#to-follow h3 {
+	font-size: 13px;
 	font-weight: 200px;
 	line-height: 20px;
 
 }
-#to-follow a {
+.box a {
 	color: #186FA9;
 	text-decoration: none;
 }
 
-#to-follow a:hover{ 
+.box a:hover{ 
 	color: #186FA9;
 	text-decoration: underline;
 }
@@ -130,12 +154,30 @@ li{
 .box img{
 	float: left;
 }
-.box h3{
+
+#trends h4{
 	font-size: 12px;
 	line-height: 18px;
 }
+.box h3{
+	font-size: 13px;
+	line-height: 18px;
+}
 
+#side-map{
+	font-size: 12px;
+	color: grey;
+	word-spacing: 4px;
+	line-height: 22px;
+}
 
+#side-map a {
+	color: grey;
+}
+
+#side-map a:hover{
+	color: #2E2E2E;
+}
 
 /* ------------- */
 /* right-side: 	 */
